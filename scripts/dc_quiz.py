@@ -49,7 +49,7 @@ def newQuiz():
     elif(result == db.mB):
         im = Image.open("batman.jpg")
     elif(result == db.mC):
-        im = Image.open("Cyborg.jpg")
+        im = Image.open("cyborg.jpg")
     else:
         im = Image.open("superman.jpg")
     im.show()
