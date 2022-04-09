@@ -21,6 +21,9 @@ userName = input("\n\n\tEnter Your Name Please: ")
 print(Fore.CYAN + '\t***********************************')
 print("\t\tWelcom " + userName.upper())
 print(Fore.CYAN + '\t***********************************')
+print("\t\tChoose From:\n\t" + Fore.GREEN +
+      "Batman, Superman, Cyborg, or Aquaman")
+print(Fore.CYAN + '\t***********************************')
 
 
 userAnswers = []

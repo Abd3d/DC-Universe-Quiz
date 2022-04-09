@@ -2,7 +2,7 @@ import colorama
 from colorama import Fore
 from components import setting, validation,  db
 from PIL import Image
-import emoji
+from emoji import emojize
 # Chose Chaecter
 
 
@@ -40,8 +40,8 @@ def newQuiz():
         currentQuestion += 1
 
     # Display the result #
+    print(Fore.GREEN + "\n\tThank You: " + emojize(':thumbs_up:'))
 
-    print(Fore.GREEN + "\n\tThank You: " + emoji.emojize(':thumbs_up:'))
     imgPath = ""
     result = max(db.mA, db.mB, db.mC, db.mS)
     if(result == db.mA):
