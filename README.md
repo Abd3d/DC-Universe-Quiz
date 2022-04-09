@@ -2,13 +2,16 @@
 
 Akinator Quiz
 
-##Course Name:
+## Course Name:
+
 Multimedia authoring 1
 
-##Title:
+## Title:
+
 Pytho Quiz Game - Homework #3 Due Date: Apr. 09, 2022, 5:00 PM
 
-##Contributor(s)
+## Contributor(s)
+
 I added another GitHub Account and named it Abd3d2
 
 ## Main steps
